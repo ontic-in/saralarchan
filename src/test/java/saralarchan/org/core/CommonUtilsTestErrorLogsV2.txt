@@ -1,0 +1,96 @@
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.428 s - in CommonUtilsTest
+[INFO] Running saralarchan.org.core.CommonUtilsTest
+[ERROR] Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in saralarchan.org.core.CommonUtilsTest
+[ERROR] testGetCorrelationIDWithCookie  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error:
+Unresolved compilation problem:
+	The declared package "" does not match the expected package "saralarchan.org.core"
+
+	at saralarchan.org.core.CommonUtilsTest.<init>(CommonUtilsTest.java:1)
+
+[ERROR] testPrepareResponse  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error:
+Unresolved compilation problem:
+	The declared package "" does not match the expected package "saralarchan.org.core"
+
+	at saralarchan.org.core.CommonUtilsTest.<init>(CommonUtilsTest.java:1)
+
+[ERROR] testGetGlobalProp  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error:
+Unresolved compilation problem:
+	The declared package "" does not match the expected package "saralarchan.org.core"
+
+	at saralarchan.org.core.CommonUtilsTest.<init>(CommonUtilsTest.java:1)
+
+[ERROR] testInitSystemProps  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error:
+Unresolved compilation problem:
+	The declared package "" does not match the expected package "saralarchan.org.core"
+
+	at saralarchan.org.core.CommonUtilsTest.<init>(CommonUtilsTest.java:1)
+
+[ERROR] testGetInputDataFromRequest  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error:
+Unresolved compilation problem:
+	The declared package "" does not match the expected package "saralarchan.org.core"
+
+	at saralarchan.org.core.CommonUtilsTest.<init>(CommonUtilsTest.java:1)
+
+[ERROR] testSetTarget  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error:
+Unresolved compilation problem:
+	The declared package "" does not match the expected package "saralarchan.org.core"
+
+	at saralarchan.org.core.CommonUtilsTest.<init>(CommonUtilsTest.java:1)
+
+[ERROR] testGetCorrelationID  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error:
+Unresolved compilation problem:
+	The declared package "" does not match the expected package "saralarchan.org.core"
+
+	at saralarchan.org.core.CommonUtilsTest.<init>(CommonUtilsTest.java:1)
+
+[ERROR] testResolveSource  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error:
+Unresolved compilation problem:
+	The declared package "" does not match the expected package "saralarchan.org.core"
+
+	at saralarchan.org.core.CommonUtilsTest.<init>(CommonUtilsTest.java:1)
+
+[ERROR] testResolvespecifier  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error:
+Unresolved compilation problem:
+	The declared package "" does not match the expected package "saralarchan.org.core"
+
+	at saralarchan.org.core.CommonUtilsTest.<init>(CommonUtilsTest.java:1)
+
+[INFO]
+[INFO] Results:
+[INFO]
+[ERROR] Errors:
+[ERROR]   CommonUtilsTest.<init>:1  Unresolved compilation problem:
+	The declared packa...
+[ERROR]   CommonUtilsTest.<init>:1  Unresolved compilation problem:
+	The declared packa...
+[ERROR]   CommonUtilsTest.<init>:1  Unresolved compilation problem:
+	The declared packa...
+[ERROR]   CommonUtilsTest.<init>:1  Unresolved compilation problem:
+	The declared packa...
+[ERROR]   CommonUtilsTest.<init>:1  Unresolved compilation problem:
+	The declared packa...
+[ERROR]   CommonUtilsTest.<init>:1  Unresolved compilation problem:
+	The declared packa...
+[ERROR]   CommonUtilsTest.<init>:1  Unresolved compilation problem:
+	The declared packa...
+[ERROR]   CommonUtilsTest.<init>:1  Unresolved compilation problem:
+	The declared packa...
+[ERROR]   CommonUtilsTest.<init>:1  Unresolved compilation problem:
+	The declared packa...
+[INFO]
+[ERROR] Tests run: 18, Failures: 0, Errors: 9, Skipped: 0
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.233 s
+[INFO] Finished at: 2023-08-18T13:40:24+05:30
