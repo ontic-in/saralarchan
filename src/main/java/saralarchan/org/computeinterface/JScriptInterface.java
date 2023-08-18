@@ -57,8 +57,8 @@ public class JScriptInterface {
 		String  rv = "";
 		try {
 			LogManager.logInfo("Function is "+function +" and arguments" + arguments.toString());
-			Value func = inv.getBindings("js").getMember(function);
-			rv = (String) func.execute(arguments).asString();
+			// Value func = inv.getBindings("js").getMember(function);
+			// rv = (String) func.execute(arguments).asString();
 	
 		}
 		catch(Exception e) {
