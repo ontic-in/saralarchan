@@ -11,7 +11,7 @@ import com.jayway.jsonpath.DocumentContext;
 import java.io.BufferedReader;
 import java.io.StringReader;
 
-public class CommonUtilsTest {
+public class CommonUtilsTestV6 {
 
     @Test
     public void testGetInputDataFromRequest() throws Exception {
@@ -119,7 +119,14 @@ public class CommonUtilsTest {
         assertTrue(result);
     }
 
-    // Removed testResolveSourceWithNoVar test as it was causing error
+    @Test
+    public void testResolveSourceWithNoVar() {
+        String value = "$.testValue";
+        HashMap varmap = new HashMap();
+        Object req = new Object();
+        String result = CommonUtils.resolveSource(value, varmap, req);
+        assertEquals(req.toString(), result);
+    }
 
     @Test
     public void testGetGlobalPropWithNoKey() {
