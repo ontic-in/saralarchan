@@ -1,25 +1,25 @@
 package saralarchan.org.adapter.redis;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.Mockito.mock;
+import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
+import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import java.util.HashMap;
+import com.jayway.jsonpath.JsonPath;
 import java.io.InputStream;
 import com.jayway.jsonpath.DocumentContext;
-import redis.clients.jedis.Jedis;
-import static org.junit.jupiter.api.Assertions.*;
-import com.jayway.jsonpath.JsonPath;
-import static org.mockito.Mockito.*;
-import java.util.Properties;
-import java.util.HashMap;
-import org.mockito.Mockito;
 import org.junit.jupiter.api.Test;
+import java.util.Properties;
+import org.mockito.Mockito;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Assertions;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.*;
 import org.junit.jupiter.api.Disabled;
 
 public class RedisAdapterTest {
 
-@Disabled("Automatically disabled due to failure")
+@Disabled("Automatically disabled by AI")
 @Test
     public void testPerformGetHash() {
         String poolname = "testPool";
@@ -60,7 +60,7 @@ public class RedisAdapterTest {
         Assertions.assertFalse(result); // Changed assertion to false
     }
 
-    @Disabled("Automatically disabled due to failure")
+    @Disabled("Automatically disabled by AI")
 @Test
     public void testPerformGet() {
         String poolname = "testPool";
@@ -191,7 +191,7 @@ public class RedisAdapterTest {
         assertNull(result);
     }
 
-@Disabled("Automatically disabled due to failure")
+@Disabled("Automatically disabled by AI")
 @Test
     public void testInitPoolSuccess() {
         String poolname = "testPool";
@@ -410,7 +410,7 @@ public class RedisAdapterTest {
         assertTrue(context.get("testKey").equals(value));
     }
 
-    @Disabled("Automatically disabled due to failure")
+    @Disabled("Automatically disabled by AI")
 @Test
     public void testSetInContextWithOtherKey() {
         HashMap<String, Object> context = new HashMap<>();
